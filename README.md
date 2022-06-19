@@ -23,7 +23,7 @@ At the beginning of the code we declare a list of images, then we read the image
 
 ## Low pass filter and high pass filter
 In the field of image processing, filtering is an important technique used to manipulate the image. An image can be filtered in many aspects like sharpening, smoothing, noise reduction and edge enhancements. A filter can be described by kernel which consists of a small array takes account to each pixel and its neighboring pixels. Therefore, we can say that different type of the algorith m generates different types of kernels and it filtered the image in various types. For instance, to blur the image, to change the brightness, etc.
-### pass Filter (LPF): 
+### Low pass Filter (LPF): 
 A lowpass filter is considered essential for most of the smoothing system. An image can be smoothed by declining the disparity between pixel values by averaging neighboring pixels. A LPF tends to hold the low frequency information of an image and at the same time i t will reduce the high frequency components of an image. In this project, Gaussian filter is used as a LPF.
 ### Gaussian Filter:
 It is defined by a weighted average of each pixel’s neighboring pixel, with the average weighted more towards the value of the central pixel, This algorithm is useful for blur image and noise removing.
